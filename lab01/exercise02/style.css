@@ -10,15 +10,33 @@ body {
 Add some style blocks below this line to style the cards.
 Feel free to borrow from Exercise 1.
 */
+body {
+    width: 300px;
+    border: 1px solid black;
+    padding: 25px;
+    margin: 20px;
+  }
+
+
+.center {
+    display: block;
+    margin-left: -20;
+    margin-right: -20;
+    width: 100%;
+  }
 
 
 /* Tablet Media Query */
 @media only screen and (max-width: 1000px) {
-
+    .tablets-portrait {
+        display: block;
+     }
 }
 
 /* Mobile Phone Media Query */
 @media only screen and (max-width: 600px) {
-
+    .most-smartphones {
+        display: block;
+     }
     
 }
